@@ -1,5 +1,5 @@
 #include <stdio.h>
-void strCpy(char* str, char* cpyStr) {
+void strCpy(char str[], char cpyStr[]) {
     int i=0;
     while (str[i]!='\0') {
         cpyStr[i]=str[i];

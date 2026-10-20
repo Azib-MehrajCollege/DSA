@@ -1,5 +1,5 @@
 #include <stdio.h>
-void strConcat(char* str1, char* str2, char* concat) {
+void strConcat(char str1[], char str2[], char concat[]) {
     int i=0;
     while (str1[i]!='\0') {
         concat[i]=str1[i];
